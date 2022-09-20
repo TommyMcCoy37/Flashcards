@@ -7,7 +7,7 @@ Flashcard app that asks a question and reveals the answer when the correct answe
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/FKIFUQ11Mo.gif" width=200><br>
+<img src="http://g.recordit.co/HuGY6EaX8U.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
