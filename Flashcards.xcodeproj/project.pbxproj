@@ -16,6 +16,7 @@
 		E06386BA28C8FB1C0035AAF0 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06386B928C8FB1C0035AAF0 /* FlashcardsTests.swift */; };
 		E06386C428C8FB1C0035AAF0 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06386C328C8FB1C0035AAF0 /* FlashcardsUITests.swift */; };
 		E06386C628C8FB1C0035AAF0 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06386C528C8FB1C0035AAF0 /* FlashcardsUITestsLaunchTests.swift */; };
+		E09F65E628E40C8900C5EBFE /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F65E528E40C8900C5EBFE /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E06386BF28C8FB1C0035AAF0 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06386C328C8FB1C0035AAF0 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		E06386C528C8FB1C0035AAF0 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E09F65E528E40C8900C5EBFE /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E063869628C8FB190035AAF0 = {
 			isa = PBXGroup;
 			children = (
+				E09F65E528E40C8900C5EBFE /* CreationViewController.swift */,
 				E06386A128C8FB190035AAF0 /* Flashcards */,
 				E06386B828C8FB1C0035AAF0 /* FlashcardsTests */,
 				E06386C228C8FB1C0035AAF0 /* FlashcardsUITests */,
@@ -261,6 +264,7 @@
 				E06386A728C8FB190035AAF0 /* ViewController.swift in Sources */,
 				E06386A328C8FB190035AAF0 /* AppDelegate.swift in Sources */,
 				E06386A528C8FB190035AAF0 /* SceneDelegate.swift in Sources */,
+				E09F65E628E40C8900C5EBFE /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HN7R3J3JL2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flashcards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +457,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TommyMcCoy.Flashcards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,8 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HN7R3J3JL2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flashcards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +487,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TommyMcCoy.Flashcards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
